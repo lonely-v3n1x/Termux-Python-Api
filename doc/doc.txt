@@ -1,0 +1,33 @@
+
+deviceInfo():
+  doc='''
+  Get Information about the device
+  "data_activity": "none",
+  "data_state": "disconnected,"
+  "device_id": "",
+  "device_software_version": "78",
+  "phone_count": ,     
+  "phone_type": "",
+  "network_operator": "",
+  "network_operator_name": "",
+  "network_country_iso": "",    
+  "network_type": "",
+  "network_roaming": ,   
+  "sim_country_iso": "",
+  "sim_operator": "",
+  "sim_operator_name": "",
+  "sim_serial_number":"",
+  "sim_subscriber_id": "",
+  "sim_state": ""
+
+
+Toast
+
+Usage: termux-toast [-b bgcolor] [-c color] [-g gravity] [-s] [text]
+Show text in a Toast (a transient popup). The text to show is either supplied as arguments or read from stdin if no arguments are given.
+ -h  show this help
+ -b  set background color (default: gray)
+ -c  set text color (default: white)
+ -g  set position of toast: [top, middle, or bottom] (default: middle)
+ -s  only show the toast for a short while
+NOTE: color can be a standard name (i.e. red) or 6 / 8 digit hex value (i.e. "#FF0000" or "#FFFF0000") where order is (AA)RRGGBB. Invalid color will revert to default value
